@@ -1,0 +1,65 @@
+:root {
+    --primary-color: #ff7f00;
+    --secondary-color: #ffffff;
+    --font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--secondary-color);
+}
+
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image-container {
+    flex: 1;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form-container {
+    flex: 1;
+    padding: 50px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container input {
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-right: 100px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-container button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+}
